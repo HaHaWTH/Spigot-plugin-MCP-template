@@ -116,6 +116,15 @@
         </repository>
     </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
     <profiles>
         <profile>
             <id>development</id>
@@ -123,12 +132,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
-                <dependency>
-                    <groupId>org.spigotmc</groupId>
-                    <artifactId>spigot-api</artifactId>
-                    <version>1.12.2-R0.1-SNAPSHOT</version>
-                    <scope>provided</scope>
-                </dependency>
                 <dependency>
                     <groupId>org.spigotmc.deobf</groupId>
                     <artifactId>spigot-mcp</artifactId>

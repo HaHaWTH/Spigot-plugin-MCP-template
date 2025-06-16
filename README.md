@@ -19,4 +19,4 @@ Use MCP mappings to develop spigot plugins with ease.
 
 ## Note
 
-Currently, this template cannot remap reflective operations on NMS classes, you may need to manually locate them via mappings in `tools`.
+Currently, this template cannot remap reflective operations on NMS classes, you may need to manually locate them via cb2srg, srg2mcp mappings in `tools`.
